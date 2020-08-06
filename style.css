@@ -1,7 +1,55 @@
 html {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2c2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  padding: 32px;
+  margin: 16px;
+  width: 800px;
+}
+
+.person {
+  display: flex;
+}
+
+.person__descrioption {
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.person__name {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.person__picture {
   
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  border-radius: 16px;
+  margin-right: 32px;
+  max-width: 196px;
+}
+
+.person__position {
+  color: #545454;
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+}
