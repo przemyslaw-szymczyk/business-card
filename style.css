@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #1B4332;
+  background: #1b4332;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,11 +35,11 @@ body {
 }
 
 .person__description--with-margin {
-    padding-bottom: 22px;
+  padding-bottom: 22px;
 }
 
 .person__information {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .person__name {
@@ -49,7 +49,6 @@ body {
 }
 
 .person__picture {
-  
   border-radius: 16px;
   margin-right: 32px;
   max-width: 196px;
@@ -63,6 +62,6 @@ body {
 }
 
 .person__link {
-    color: #d00000;
-    text-decoration: none;
+  color: #d00000;
+  text-decoration: none;
 }
