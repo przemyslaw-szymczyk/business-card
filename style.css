@@ -34,6 +34,10 @@ body {
   font-size: 16px;
 }
 
+.person__description--special {
+    padding-bottom: 22px;
+}
+
 .person__name {
   font-size: 36px;
   font-weight: normal;
@@ -52,4 +56,9 @@ body {
   font-size: 16px;
   font-style: italic;
   margin: 0;
+}
+
+.person__link {
+    color: #E20613;
+    text-decoration: none;
 }
