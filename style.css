@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #2c2141;
+  background: #1B4332;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,8 +34,12 @@ body {
   font-size: 16px;
 }
 
-.person__description--special {
+.person__description--with-margin {
     padding-bottom: 22px;
+}
+
+.person__information {
+    margin-bottom: 24px;
 }
 
 .person__name {
@@ -59,6 +63,6 @@ body {
 }
 
 .person__link {
-    color: #E20613;
+    color: #d00000;
     text-decoration: none;
 }
