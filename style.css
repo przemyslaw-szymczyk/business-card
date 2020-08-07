@@ -22,7 +22,7 @@ body {
   border-radius: 16px;
   padding: 32px;
   margin: 16px;
-  width: 800px;
+  width: 624px;
 }
 
 .person {
@@ -49,9 +49,9 @@ body {
 }
 
 .person__picture {
-  border-radius: 16px;
+  border-radius: 74px;
   margin-right: 32px;
-  max-width: 196px;
+  max-height: 148px;
 }
 
 .person__position {
